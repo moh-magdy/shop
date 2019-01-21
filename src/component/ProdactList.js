@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Prodact from './Prodact';
+import Product from './Prodact';
 import Title from './Title'
 import {ProdactConsumer} from '../context'
 
@@ -17,7 +17,7 @@ export default class ProdactList extends Component {
           <ProdactConsumer>
             {(value)=>{
               return value.products.map( product =>{
-                return  <Prodact key={product.id} 
+                return  <Product key={product.id} 
                 product={product} />
 
               })
