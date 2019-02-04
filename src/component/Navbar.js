@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import styled from 'styled-components'
 import logo from '../logo.svg'
 
-import {ButtnContainer} from './Button'
+import {ButtonContainer} from './Button'
 
 
 export default class Navbar extends Component {
@@ -21,12 +21,12 @@ export default class Navbar extends Component {
           </li>
         </ul>
         <Link to="/cart" className="ml-auto">
-          <ButtnContainer>
+          <ButtonContainer>
             <span className="mr-2">
               <i className="fas fa-cart-plus" />
               </span>
             my cart
-          </ButtnContainer>
+          </ButtonContainer>
         </Link>
       </NavWarp>
     )

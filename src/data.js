@@ -23,7 +23,7 @@ export const storeProducts = [
     },
     {
         id:3,
-        title:"test title-3",
+        title:"Google-pixel Black",
         img:"img/product-3.jpeg",
         price:130,
         company:"samsung",
@@ -35,9 +35,9 @@ export const storeProducts = [
 ]
 export const detilProduct = {
         id:1,
-        title:"test title-1",
-        img:"img/product-1.jpeg",
-        price:10,
+        title:"Google-pixel Black",
+        img:"img/product-3.jpeg",
+        price:130,
         company:"google",
         info:" Greyhound divisively hello coldly wonderfully marginally far upon excluding. Greyhound divisively hello coldlyGreyhound divisively hello coldly wonderfully marginally far upon excluding. Greyhound divisively hello coldlyGreyhound divisively hello coldly wonderfully marginally far upon excluding. Greyhound divisively hello coldly ",
         inCart:false,
